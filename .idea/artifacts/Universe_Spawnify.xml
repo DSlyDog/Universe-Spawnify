@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Universe-Spawnify">
+    <output-path>$PROJECT_DIR$/../Build/Universes</output-path>
+    <root id="archive" name="Universe-Spawnify.jar">
+      <element id="module-output" name="universe-spawnify" />
+    </root>
+  </artifact>
+</component>

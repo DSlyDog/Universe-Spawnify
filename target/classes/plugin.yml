@@ -1,0 +1,43 @@
+name: Universe-Spawnify
+version: 2.1
+main: net.whispwriting.spawnify.Spawnify
+api-version: 1.20
+authors: [WhispTheFox]
+prefix: U-Spawnify
+description: A plugin for respawns and such
+website: https://whispwriting.net/plugins
+depend:
+  - Universes
+
+commands:
+  setgroupspawn:
+    description: set the group spawn
+    usage: /setgroupspawn
+    aliases: sgs
+  spawn:
+    description: go to the group spawn
+    usage: /spawn
+  anyspawn:
+    description: go to any group spawn
+    usage: /anyspawn
+  sethub:
+    description: sets the hub
+    usage: /sethub
+  hub:
+    description: go to the hub
+    usage: /hub
+
+permissions:
+  Universes.Spawnify.spawn:
+    description: allows access to /spawn and /hub
+    default: true
+  Universes.Spawnify.setspawn:
+    description: allows access to /setgroupspawn /sethub
+    default: op
+  Universes.Spawnify.*:
+    description: Wildcard
+    default: op
+    children:
+      Universes.Spawnify.spawn: true
+      Universes.Spawnify.setspawn: true
+      Universes.modify: true
