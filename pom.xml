@@ -6,7 +6,7 @@
 
     <groupId>net.whispwriting</groupId>
     <artifactId>universe-spawnify</artifactId>
-    <version>2.1</version>
+    <version>2.1.1-beta1</version>
     <packaging>jar</packaging>
 
     <name>universe-spawnify</name>

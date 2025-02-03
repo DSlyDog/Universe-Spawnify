@@ -1,5 +1,5 @@
 name: Universe-Spawnify
-version: 2.1
+version: 2.1.1-beta1
 main: net.whispwriting.spawnify.Spawnify
 api-version: 1.20
 authors: [WhispTheFox]
